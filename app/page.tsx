@@ -17,8 +17,10 @@ export default function Home() {
       <div className="container mx-auto px-4 py-8 relative z-10">
         <div className="max-w-4xl mx-auto">
           <header className="mb-8 text-center">
-            <h1 className="text-4xl font-bold text-white mb-2">Solana Chat</h1>
-            <p className="text-slate-300">Real-time messaging on the Solana blockchain</p>
+            <h1 className="text-4xl font-bold text-white mb-2">Zcret Alpha</h1>
+            <p className="text-slate-300">Imagine being in a group chat with some of the best traders out there — all sharing what they're watching, what they’re buying, and what’s about to move. No guesswork, no noise. Just real signals, in real time.
+
+When we’re all in the same chat, we’re seeing the same coins at the same time. That kind of coordination can shift the market. It’s not just about catching trends anymore — it’s about creating them, together.</p>
           </header>
 
           <div className="rounded-lg shadow-2xl overflow-hidden">
@@ -26,7 +28,7 @@ export default function Home() {
           </div>
 
           <footer className="mt-8 text-center text-slate-400 text-sm">
-            <p>© {new Date().getFullYear()} Solana Chat. Powered by Solana & Socket.IO</p>
+            <p>© {new Date().getFullYear()} Zcret Alpha.</p>
           </footer>
         </div>
       </div>
