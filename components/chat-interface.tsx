@@ -192,9 +192,10 @@ export default function ChatInterface() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
             <MessageSquare className="h-8 w-8 text-gray-800 mr-2" />
-            <h2 className="text-3xl font-bold text-gray-800">Solana Chat</h2>
+            <h2 className="text-3xl font-bold text-gray-800">Zcret Alpha</h2>
           </div>
           <p className="text-gray-600">Connect your Solana wallet to join the conversation</p>
+          <p className="text-gray-600">(No need to have funds in your wallet)</p>
         </div>
         <div>
           <WalletConnectButton />
